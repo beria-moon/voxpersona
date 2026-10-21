@@ -1,0 +1,214 @@
+{
+  "models": [
+    {
+      "id": "voxpersona",
+      "name": "Ours",
+      "metric": ""
+    },
+    {
+      "id": "model_a",
+      "name": "头部模型 A",
+      "metric": ""
+    },
+    {
+      "id": "model_b",
+      "name": "头部模型 B",
+      "metric": ""
+    }
+  ],
+  "categories": [
+    {
+      "title": "一句话，两种演法",
+      "subtitle": "固定文本，通过声音设计呈现截然不同的人物气质与表达方式",
+      "samples": [
+        {
+          "uuid": "same_text_young_woman",
+          "label": "温柔清澈 · 真诚期待",
+          "instruction": "使用青年女性柔和清澈的声线，保持中高音区，语速舒缓自然，音量适中。表达担心时真诚细腻，随后逐渐转为温暖、安心和期待，整体像在温柔迎接一位久别重逢的朋友。",
+          "text": "你终于来了，我刚才还担心你会错过今天最精彩的时刻。你看，远处的灯一盏一盏亮起来，整条街像忽然醒了一样。先别急着往前走，站在这里听一听，风里好像还有人在唱歌。等准备好了，我们就一起出发，看看今晚究竟会发生什么。",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/same_text_young_woman.wav"
+          },
+          "ours_only": true
+        },
+        {
+          "uuid": "same_text_elder_man_gritty_retry5",
+          "label": "粗粝低哑 · 疲惫坚韧",
+          "instruction": "声线低哑厚重，带有明显但自然的粗粝感与轻微气声，音色略显干涩。语速缓慢，吐字沉稳，偶尔带有轻微的声带颤动，整体呈现出历经世事、略显疲惫而坚韧的成熟男性形象。",
+          "text": "你终于来了，我刚才还担心你会错过今天最精彩的时刻。你看，远处的灯一盏一盏亮起来，整条街像忽然醒了一样。先别急着往前走，站在这里听一听，风里好像还有人在唱歌。等准备好了，我们就一起出发，看看今晚究竟会发生什么。",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/same_text_elder_man_gritty_retry5.wav"
+          },
+          "ours_only": true
+        }
+      ]
+    },
+    {
+      "title": "情绪与态度",
+      "subtitle": "展示懊悔、调侃、自信、喜悦与真诚感谢等细腻态度",
+      "samples": [
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_62",
+          "label": "懊悔无奈 · 倾诉式男声",
+          "instruction": "请生成一种倾诉式的男性中年声音,音质略带沙哑,声音中透露出懊悔与无奈,音量在表达情感时稍微增强。语音流畅,吐字清晰,用标准普通话展现。",
+          "text": "我本来就不想干这个亏心的事，可是一想到债还不上，就鬼迷心窍了。",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/1p5b_attr_instruct_tts_eval_DSD_zh_62.wav"
+          },
+          "ours_only": true
+        },
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_82",
+          "label": "戏谑调侃 · 玩笑式要挟",
+          "instruction": "语调应该从戏谑调侃逐渐转为得意,伴有玩笑式要挟,声音要流畅无卡顿,男性青年音色,表现出顽皮和精明的性格特征。",
+          "text": "怎么样？你没事吧，这么惨啊，你刚刚这个糗样子，要是被同事知道了，你该怎么办呢？有五千块钱呢，我就帮你保密。",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/1p5b_attr_instruct_tts_eval_DSD_zh_82.wav"
+          },
+          "ours_only": true
+        },
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_558",
+          "label": "轻快自信 · 果断建议",
+          "instruction": "保持流畅自然的语音表现,语调在表达观点时充满自信,音色轻快。女性性别的高音域特征应展现出来,使声音充满活力,语气坚定果断。",
+          "text": "其实呢，你只要跟黄大河划清楚，界限，清清楚楚，就啥事都没有。",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/1p5b_attr_instruct_tts_eval_DSD_zh_558.wav"
+          },
+          "ours_only": true
+        },
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_659",
+          "label": "愉悦健谈 · 满意分享",
+          "instruction": "采用青年女性的声音基调,传递标准普通话的清晰度,语速较快且自然流畅,音高较高,体现出愉悦兴奋的情绪,展现出活泼健谈的语气,适合描述满意体验。",
+          "text": "我觉得挺好的。哎，那首席造型师啊手艺真不错。你看我这头发给我接长一点，是不是跟以前说的一样啊，一点看不出来是假的。",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/1p5b_attr_instruct_tts_eval_DSD_zh_659.wav"
+          },
+          "ours_only": true
+        },
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_447",
+          "label": "领导致谢 · 诚挚肯定",
+          "instruction": "声音洪亮,展现中年男性领导者的威严。语调饱含诚挚,语速平稳明确,偶尔加重音量以加强语气表达。标准普通话发音,略带正式感。吐字清晰,展现诚挚的感谢与肯定的情感。",
+          "text": "你为祖国、为人民完成了一项很重要的任务啊，谢谢你尹玉山同志。",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/1p5b_attr_instruct_tts_eval_DSD_zh_447.wav"
+          },
+          "ours_only": true
+        }
+      ]
+    },
+    {
+      "title": "角色与场景",
+      "subtitle": "覆盖主持、采访、专业播音和资深指导等明确角色",
+      "samples": [
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_23",
+          "label": "青年男主持 · 高扬兴奋",
+          "instruction": "展现出青年男性的热情主持风格,音高十分高扬,语调昂扬且充满自信,语速较快,音量洪亮;声音质感上追求高亮,情绪呈现出一种兴奋感且吐字清晰。",
+          "text": "其实已经没有任何意义了，但是还是要向大家展示一下站在三号位置的这一位美丽的小姑娘，她的名字叫做桃桃。",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/1p5b_attr_instruct_tts_eval_DSD_zh_23.wav"
+          },
+          "ours_only": true
+        },
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_455",
+          "label": "好奇采访 · 活泼健谈",
+          "instruction": "展现出青年女性的音色特质,音调高亢,整体语速偏快,开场时尤其迅速。调子活泼上扬,声音明亮而清澈,表现力丰富,语音中能感受到外向且自信健谈的个性。",
+          "text": "终于到了可以解答我疑问的时候了。究竟什么是坡崖歌书？这个问题实在是太想知道了，那给大家介绍一下，现在坐在我旁边的就是这个村子的村民。其实这里很多人都会唱坡崖歌书，这几位也是不例外，尤其是我身旁的这两位妈妈，她们还是坡崖歌书的传承人，曾经去过北京表演呢，你们两位就是传承人是吗？",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/1p5b_attr_instruct_tts_eval_DSD_zh_455.wav"
+          },
+          "ours_only": true
+        },
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_117",
+          "label": "专业播音 · 清晰有张力",
+          "instruction": "声音展现男性特征,保持稳定清晰的语速,语调需如节目播音员般专业,音量要充满张力但不过度强调,准确清晰的发音确保了标准普通话的呈现。",
+          "text": "远方的家百集系列特别节目《滨江行》第65集《塔河滨的传奇》正在播出",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/1p5b_attr_instruct_tts_eval_DSD_zh_117.wav"
+          },
+          "ours_only": true
+        },
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_56",
+          "label": "资深指导 · 平静自信",
+          "instruction": "说话时保持流畅自然的语调,语速稍缓,清晰度高,传达出成熟男性的音色质感,角色定位为资深指导者,语气应当平静自信,并带有教导的意味。",
+          "text": "我就给你们上一课，这个炼铁的事我还能够讲一点。",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/1p5b_attr_instruct_tts_eval_DSD_zh_56.wav"
+          },
+          "ours_only": true
+        }
+      ]
+    },
+    {
+      "title": "动态表达控制",
+      "subtitle": "展示语速、语气和情绪在句内的自然变化",
+      "samples": [
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_640",
+          "label": "恳切求助 · 犹豫转决绝",
+          "instruction": "语音应体现普通话口音的标准清晰度,初始语速缓慢带有犹豫,表达出寻求帮助的恳切执着。在强调肯定时,语气保持决绝,语速加快至急促,流畅度随情绪变化优化。",
+          "text": "我想求你借我点钱。可盈，我发誓，我发誓，这是最后一次，如果这次还不成的话，我就再也不折腾了，老老实实去上班。",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/1p5b_attr_instruct_tts_eval_DSD_zh_640.wav"
+          },
+          "ours_only": true
+        },
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_251",
+          "label": "军事指挥 · 从容转急促",
+          "instruction": "语音需展现出中年男性的厚重音质,用标准普通话发音,情感激昂,语气不容置疑。语速稳健且连贯,从容不迫地转向急促紧张。每个指令都需清晰准确,音量保持高亢,以显出刚毅果敢的性格。",
+          "text": "两军相隔三百大火枪的射程是两百步，弓箭只有一百步。我们要有两百个兄弟冲在前面，弓箭手紧跟其后，再冲两百，听到枪声不要躲，继续冲，拼命地贴上去，为弓箭手赢得这一百步。",
+          "audio": {
+            "voxpersona": "assets/audio/voxpersona/1p5b_attr_instruct_tts_eval_DSD_zh_251.wav"
+          },
+          "ours_only": true
+        }
+      ]
+    },
+    {
+      "title": "模型对比",
+      "subtitle": "使用相同文本横向试听 VoxPersona 与两个头部模型",
+      "samples": [
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_965",
+          "label": "热情本地向导",
+          "instruction": "保持热情的本地推荐人的角色特性,语速较快富有节奏,语调上扬表达自豪感,音量需适中偏高展现充沛活力,语音需清晰流畅,让听众感受到一位充满活力的本地向导的亲切之声。",
+          "text": "哎呀，你爸爸问我们挑嘴的人哦，说他炒的菜呀，那是比馆子里的还好吃。",
+          "audio": {
+            "model_a": "assets/audio/model_a/instruct_tts_eval_DSD_zh_965.wav",
+            "model_b": "assets/audio/model_b/instruct_tts_eval_DSD_zh_965.wav",
+            "voxpersona": "assets/audio/voxpersona/instruct_tts_eval_DSD_zh_965.wav"
+          }
+        },
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_529",
+          "label": "亲切柔和 · 真诚感谢",
+          "instruction": "展现出女性高音区的声线,结尾常有上扬,同时保持亲切柔和的语调,传达出真诚的感谢之情。在表达谢意时,音量需要略微增大,给人以热情和友好的感受。",
+          "text": "真是谢谢你啊。我昨天抽了一晚上，就想着怎么把这漏雨的地儿给它补上呢，没想到一大早啊，你就带着工具过来了，谢谢你啊。",
+          "audio": {
+            "model_a": "assets/audio/model_a/instruct_tts_eval_DSD_zh_529.wav",
+            "model_b": "assets/audio/model_b/instruct_tts_eval_DSD_zh_529.wav",
+            "voxpersona": "assets/audio/voxpersona/instruct_tts_eval_DSD_zh_529.wav"
+          }
+        },
+        {
+          "uuid": "instruct_tts_eval_DSD_zh_110",
+          "label": "急切兴奋 · 迫不及待宣告",
+          "instruction": "使用标准普通话,以充沛响亮的音量,一气呵成地表达急切的宣告,音调高亢,带着急切且兴奋的情感,仿佛迫不及待地分享发现。",
+          "text": "今天早上，我看到环球体育中心杂志里面有一个送外卖的挑战。空手道大师兄。",
+          "audio": {
+            "model_a": "assets/audio/model_a/instruct_tts_eval_DSD_zh_110.wav",
+            "model_b": "assets/audio/model_b/instruct_tts_eval_DSD_zh_110.wav",
+            "voxpersona": "assets/audio/voxpersona/instruct_tts_eval_DSD_zh_110.wav"
+          }
+        }
+      ]
+    }
+  ]
+}
