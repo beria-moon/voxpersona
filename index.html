@@ -10,8 +10,8 @@
 .hero{position:relative;overflow:hidden;padding:86px 24px 74px;background:radial-gradient(circle at 82% 8%,#b8e6d1 0,transparent 34%),radial-gradient(circle at 8% 100%,#f3d6b9 0,transparent 25%),linear-gradient(135deg,#fbfdfc,#eaf6f0)}
 .hero:after{content:"";position:absolute;inset:0;opacity:.2;pointer-events:none;background-image:linear-gradient(#fff8 1px,transparent 1px),linear-gradient(90deg,#fff8 1px,transparent 1px);background-size:42px 42px}
 .wrap{position:relative;z-index:1;max-width:1180px;margin:auto}.hero-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,380px);gap:54px;align-items:center}.hero-copy{max-width:840px}.brand-visual{position:relative}.brand-icon{display:block;width:100%;aspect-ratio:1;object-fit:cover;border:1px solid #b8dccc;border-radius:34px;background:#fff;box-shadow:0 28px 70px #174d3630;transform:rotate(1.2deg)}.eyebrow{display:inline-flex;align-items:center;padding:8px 13px;border:1px solid #92cbb2;border-radius:999px;color:var(--brand-dark);background:#ffffff9c;font-size:12px;font-weight:800;letter-spacing:.11em;text-transform:uppercase}
-h1{margin:22px 0 24px;font-family:"Noto Serif SC","Source Han Serif SC","Songti SC",STSong,Georgia,serif;font-size:clamp(43px,7.2vw,82px);font-weight:750;line-height:1.04;letter-spacing:-.045em}
-.headline-line{display:block}.headline-accent{margin-top:7px;color:var(--brand-dark)}.headline-accent em{color:var(--accent);font-style:normal}
+h1{margin:22px 0 14px;font-family:"Noto Serif SC","Source Han Serif SC","Songti SC",STSong,Georgia,serif;font-size:clamp(48px,7vw,84px);font-weight:780;line-height:1.04;letter-spacing:-.045em}.brand-latin{display:block}.brand-cn{display:block;margin-top:8px;color:var(--brand-dark);font-size:.58em;letter-spacing:.02em}
+.hero-slogan{margin:0 0 24px;color:#516159;font-family:"Noto Serif SC","Source Han Serif SC","Songti SC",serif;font-size:clamp(20px,2.5vw,28px);line-height:1.45}.hero-slogan strong{color:var(--accent);font-weight:800}
 .lead{max-width:830px;margin:0;color:#46584f;font-size:19px;line-height:1.9}.lead strong{color:var(--ink);font-weight:800}.lead .expression{color:var(--brand-dark)}
 .capability{max-width:830px;margin:24px 0 0;padding:19px 22px;border:1px solid #b8dccc;border-radius:16px;background:#ffffffb8;color:#405249;font-size:16px;line-height:1.8;box-shadow:0 10px 30px #244b3720}.capability strong{color:var(--brand-dark);font-size:18px}
 .comparison-note{max-width:830px;margin:25px 0 0;padding:13px 17px;border-left:4px solid var(--brand);border-radius:0 10px 10px 0;background:#ffffffa6;color:#52635b;font-size:14px;line-height:1.7}
@@ -29,11 +29,12 @@ footer{padding:28px 24px 48px;color:var(--muted);text-align:center}
 <body>
 <header class="hero"><div class="wrap hero-layout">
   <div class="hero-copy">
-    <div class="eyebrow">VoxPersona · 声相</div>
+    <div class="eyebrow">Natural-Language Voice Design</div>
     <h1>
-      <span class="headline-line">不只描述声音</span>
-      <span class="headline-line headline-accent">更<em>设计表达</em></span>
+      <span class="brand-latin">VoxPersona</span>
+      <span class="brand-cn">· 声相</span>
     </h1>
+    <p class="hero-slogan">不只描述声音，<strong>更设计表达</strong></p>
     <p class="lead">让模型不仅生成<strong>“什么样的声音”</strong>，也能理解<strong class="expression">“用怎样的方式说”</strong></p>
     <p class="capability"><strong>自然语言，定制声音形象</strong><br>支持用户通过自然语言自由描述目标音色的声学特征、人物形象及表达风格。模型能够准确解析多属性组合与细粒度控制要求，并生成与指令高度一致的定制化语音，让用户能够轻松创造出符合自身需求的声音形象。</p>
   </div>
